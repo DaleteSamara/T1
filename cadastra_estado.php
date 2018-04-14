@@ -19,6 +19,7 @@
 
 
 	$xml->asXML($arquivo);
+	
+	header("location:form_cidade.php");
 
-	include("informacoes_lidas.php");
 ?>
